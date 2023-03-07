@@ -64,6 +64,7 @@ LELAH!
 --text-color-light: hsl(var(--second-hue), 4%, 55%);
 --body-color: hsl(var(--second-hue), 48%, 8%);
 --container: hsl(var(--second-hue), 32%, 12%);
+--nav-color: hsl(var(--second-hue), 8%, 75%);
 
 /*--============FONT AND TYPOGRAPHY================*/
 --body-font: 'Poppins', sans-serif;
@@ -164,6 +165,7 @@ body.light-theme {
     --text-color: hsl(var(--second-hue), 8%, 35%);
     --body-color: hsl(var(--second-hue), 100%, 99%);
     --container: #fff;
+    --nav-color: #fff;
 }
 
 
@@ -248,7 +250,7 @@ body.light-theme {
 }
 
 .nav__link {
-    color: var(--text-color);
+    color: var(--nav-color);
     font-size: 1.25rem;
     padding: .4rem;
     display: flex;
